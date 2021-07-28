@@ -1,0 +1,74 @@
+.Register_Button
+{
+    position:absolute;
+    top: 50%;
+    left: 40%;
+	background-color:#4b4b4b;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.Register_Button:hover 
+{
+    position:absolute;
+    top: 50%;
+    left: 40%;
+	background-color:#5cbf2a;
+}
+.Register_Button:active 
+{
+	position:absolute;
+    top: 50%;
+    left: 40%;
+}
+
+
+.Login_Button 
+{
+    position:absolute;
+    top: 50%;
+    left: 52%;
+
+	background-color:#4b4b4b;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.Login_Button:hover
+ {
+    position:absolute;
+    top: 50%;
+    left: 52%;
+
+	background-color:#5cbf2a;
+}
+.Login_Button:active 
+{
+	position:absolute;
+    top: 50%;
+    left: 52%;
+}
+
+
+
+.Home_screen_logo
+{
+    position: absolute;
+    top: 33%;
+    width: 30%;
+    left: 35%;
+}

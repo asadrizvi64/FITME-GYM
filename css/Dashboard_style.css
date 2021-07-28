@@ -1,0 +1,170 @@
+
+body {
+  background-image: url('Pictures/DB1.jpg');
+  background-size: 100%;
+}
+
+
+.Profile {
+    position: absolute;
+    width: 8%;
+    left: 67%;
+    top: 3%;
+}
+
+.me_id {
+    position: absolute;
+    width: 25%;
+    left: 75%;
+    top: 3%;
+    color: rgb(253, 253, 253);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.me_name{
+    position: absolute;
+    width: 25%;
+    left: 75%;
+    top: 6%;
+    color: rgb(253, 253, 253);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.me_age{
+    position: absolute;
+    width: 25%;
+    left: 75%;
+    top: 9%;
+    color: rgb(253, 253, 253);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.me_gend{
+    position: absolute;
+    width: 25%;
+    left: 75%;
+    top: 12%;
+    color: rgb(253, 253, 253);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.me_con{
+    position: absolute;
+    width: 25%;
+    left: 75%;
+    top: 15%;
+    color: rgb(253, 253, 253);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.me_fee{
+    position: absolute;
+    width: 25%;
+    left: 75%;
+    top: 18%;
+    color: rgb(253, 253, 253);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.Home_screen_logo
+{
+    position: absolute;
+    top: 3%;
+    width: 30%;
+    left: 2%;
+}
+
+
+.text-box {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left:15%;
+    margin-top: 40vh;
+}
+
+.text-box1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 35%;
+    margin-top: 40vh;
+}
+
+.text-box2 {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 50%;
+    margin-top: 40vh;
+}
+
+.text-box3 {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 70%;
+   margin-top: 40vh;
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #777;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
